@@ -3,7 +3,7 @@
 <link rel="stylesheet" href="{{.Site.Params.staticPath}}/css/single.css">
 
 <!-- fontawesome -->
-<script defer src="{{.Site.Params.staticPath}}/fontawesome-6/all-6.4.2.js"></script>
+<script defer src="fontawesome-6/all-6.4.2.js"></script>
 {{ end }}
 
 {{ define "title" }}
@@ -111,7 +111,7 @@
 <div class="progress">
   <div id="scroll-progress-bar" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
 </div>
-<Script src="{{.Site.Params.staticPath}}/js/scrollProgressBar.js"></script>
+<Script src="js/scrollProgressBar.js"></script>
 {{ end }}
 
 <script>
@@ -144,7 +144,7 @@
 </script>
 
 {{ if or (.Site.Params.singlePages.readTime.enable | default true) (.Params.enableReadingTime) }}
-<script src="{{.Site.Params.staticPath}}/js/readingTime.js"></script>
+<script src="js/readingTime.js"></script>
 {{end}}
 
 {{ end }}

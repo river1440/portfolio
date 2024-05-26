@@ -65,10 +65,6 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
-      - name: Download artifact
-        uses: actions/download-artifact@v3
-        with:
-          path: ./public
 
   # Deployment job
   deploy:
@@ -81,5 +77,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-        with:
-          folder: ./public
