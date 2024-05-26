@@ -2,14 +2,14 @@ baseURL = 'https://river1440-ce.github.io/portfolio/'
 languageCode = 'en-us'
 title = 'Portfolio | Huang Chuan'
 [params]
-  favicon = "/fav.png"
+  favicon = "fav.png"
   [params.hero]
     enable = true
     intro = "Hi! Greeting from"
     title = "Chuan,"
     subtitle = "an enthusiastic developer with data mindset."
     content = "From an engineering background, I build software through a problem-sovling approach. With experience of leading students addressing sustainability, I ideate solution for a better future."
-    image = "/hero.JPG"
+    image = "hero.JPG"
     [params.hero.button]
       enable = true
       url = "https://drive.google.com/file/d/1KrS93yHSAgUkUyhCVHOXm2wJV1Y2_6P1/view?usp=sharing"
@@ -28,34 +28,34 @@ title = 'Portfolio | Huang Chuan'
   [params.about]
     enable = true
     title = "About"
-    image = "/about-me.png"
+    image = "about-me.png"
     content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
   [params.projects]
     enable = true
     title = "Tech Projects"
     [[params.projects.items]]
     title = "Project 1"
-    image = "/projects/project-1.JPG"
+    image = "projects/project-1.JPG"
     content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
     badges  =  ["Python", "Django"]
     [[params.projects.items]]
     title = "Project 2"
-    image = "/projects/project-2.JPG"
+    image = "projects/project-2.JPG"
     content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
     badges  =  ["Javascript", "Vue"]
     [[params.projects.items]]
     title = "Project 3"
-    image = "/projects/project-3.JPG"
+    image = "projects/project-3.JPG"
     content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
     badges  =  ["Python", "sci-kit"]
     [[params.projects.items]]
     title = "Project 4"
-    image = "/projects/project-4.JPG"
+    image = "projects/project-4.JPG"
     content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
     badges  =  ["Javascript", "Vue"]
     [[params.projects.items]]
     title = "Project 5"
-    image = "/projects/project-5.JPG"
+    image = "projects/project-5.JPG"
     content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
     badges  =  ["Python", "sci-kit"]
 
@@ -64,22 +64,22 @@ title = 'Portfolio | Huang Chuan'
     title = "Softskill"
     [[params.softskill.items]]
     title = "Softskill 1"
-    image = "/softskill/softskill-1.JPG"
+    image = "softskill/softskill-1.JPG"
     content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
     badges  =  ["Python", "Django"]
     [[params.softskill.items]]
     title = "Softskill 2"
-    image = "/softskill/softskill-2.JPG"
+    image = "softskill/softskill-2.JPG"
     content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
     badges  =  ["Javascript", "Vue"]
     [[params.softskill.items]]
     title = "Softskill 3"
-    image = "/softskill/softskill-3.JPG"
+    image = "softskill/softskill-3.JPG"
     content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
     badges  =  ["Python", "sci-kit"]
     [[params.softskill.items]]
     title = "Softskill 4"
-    image = "/softskill/softskill-4.JPG"
+    image = "softskill/softskill-4.JPG"
     content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
     badges  =  ["Python", "sci-kit"]
 
