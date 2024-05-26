@@ -1,4 +1,27 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Portfolio | Huang Chuan'
 theme = 'hugo-profile'
+[params]
+  [params.hero]
+    enable = true
+    intro = "This is Hero Page"
+    title = "Title"
+    subtitle = "Sub Title"
+    content = "This is content"
+    [params.hero.button]
+      enable = true
+      url = ""
+      name = "Check CV"
+      download = false
+  [params.hero.socialLinks]
+    [[params.hero.socialLinks.fontAwesomeIcons]]
+      url = ""
+      icon = "fa-brands fa-linkedin"
+    [[params.hero.socialLinks.fontAwesomeIcons]]
+      url = ""
+      icon = "fa-brands fa-github"
+    [[params.hero.socialLinks.fontAwesomeIcons]]      
+      url = ""
+      icon = "fa-solid fa-newspaper"
+
