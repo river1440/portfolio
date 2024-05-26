@@ -29,34 +29,34 @@ title = 'Portfolio | Huang Chuan'
     enable = true
     title = "About"
     image = "/about-me.png"
-    content = "Content"
+    content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
   [params.projects]
     enable = true
     title = "Tech Projects"
     [[params.projects.items]]
     title = "Project 1"
     image = "/projects/project-1.JPG"
-    content = "Content"
+    content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
     badges  =  ["Python", "Django"]
     [[params.projects.items]]
     title = "Project 2"
     image = "/projects/project-2.JPG"
-    content = "Content"
+    content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
     badges  =  ["Javascript", "Vue"]
     [[params.projects.items]]
     title = "Project 3"
     image = "/projects/project-3.JPG"
-    content = "Content"
+    content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
     badges  =  ["Python", "sci-kit"]
     [[params.projects.items]]
     title = "Project 4"
     image = "/projects/project-4.JPG"
-    content = "Content"
+    content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
     badges  =  ["Javascript", "Vue"]
     [[params.projects.items]]
     title = "Project 5"
     image = "/projects/project-5.JPG"
-    content = "Content"
+    content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
     badges  =  ["Python", "sci-kit"]
 
   [params.softskill]
@@ -65,23 +65,24 @@ title = 'Portfolio | Huang Chuan'
     [[params.softskill.items]]
     title = "Softskill 1"
     image = "/softskill/softskill-1.JPG"
-    content = "Content"
+    content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
     badges  =  ["Python", "Django"]
     [[params.softskill.items]]
     title = "Softskill 2"
     image = "/softskill/softskill-2.JPG"
-    content = "Content"
+    content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
     badges  =  ["Javascript", "Vue"]
     [[params.softskill.items]]
     title = "Softskill 3"
     image = "/softskill/softskill-3.JPG"
-    content = "Content"
+    content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
     badges  =  ["Python", "sci-kit"]
     [[params.softskill.items]]
     title = "Softskill 4"
     image = "/softskill/softskill-4.JPG"
-    content = "Content"
+    content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
     badges  =  ["Python", "sci-kit"]
 
   [params.color]
   primaryColor = "#56CBF9"
+  secondaryBackgroundColor = "#FFFFFF"
