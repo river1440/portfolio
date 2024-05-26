@@ -1,19 +1,19 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Portfolio | Huang Chuan'
-theme = 'hugo-profile'
 [params]
   favicon = "/fav.png"
   [params.hero]
     enable = true
-    intro = "This is Hero Page"
-    title = "Title"
-    subtitle = "Sub Title"
-    content = "This is content"
+    intro = "Hi! Greeting from"
+    title = "Chuan,"
+    subtitle = "an enthusiastic developer with data mindset."
+    content = "From an engineering background, I build software through a problem-sovling approach. With experience of leading students addressing sustainability, I ideate solution for a better future."
+    image = "/hero.JPG"
     [params.hero.button]
       enable = true
-      url = ""
-      name = "Check CV"
+      url = "https://drive.google.com/file/d/1KrS93yHSAgUkUyhCVHOXm2wJV1Y2_6P1/view?usp=sharing"
+      name = "CV"
       download = false
   [params.hero.socialLinks]
     [[params.hero.socialLinks.fontAwesomeIcons]]
@@ -25,4 +25,63 @@ theme = 'hugo-profile'
     [[params.hero.socialLinks.fontAwesomeIcons]]      
       url = ""
       icon = "fa-solid fa-newspaper"
+  [params.about]
+    enable = true
+    title = "About"
+    image = "/about-me.png"
+    content = "Content"
+  [params.projects]
+    enable = true
+    title = "Tech Projects"
+    [[params.projects.items]]
+    title = "Project 1"
+    image = "/projects/project-1.JPG"
+    content = "Content"
+    badges  =  ["Python", "Django"]
+    [[params.projects.items]]
+    title = "Project 2"
+    image = "/projects/project-2.JPG"
+    content = "Content"
+    badges  =  ["Javascript", "Vue"]
+    [[params.projects.items]]
+    title = "Project 3"
+    image = "/projects/project-3.JPG"
+    content = "Content"
+    badges  =  ["Python", "sci-kit"]
+    [[params.projects.items]]
+    title = "Project 4"
+    image = "/projects/project-4.JPG"
+    content = "Content"
+    badges  =  ["Javascript", "Vue"]
+    [[params.projects.items]]
+    title = "Project 5"
+    image = "/projects/project-5.JPG"
+    content = "Content"
+    badges  =  ["Python", "sci-kit"]
 
+  [params.softskill]
+    enable = true
+    title = "Softskill"
+    [[params.softskill.items]]
+    title = "Softskill 1"
+    image = "/softskill/softskill-1.JPG"
+    content = "Content"
+    badges  =  ["Python", "Django"]
+    [[params.softskill.items]]
+    title = "Softskill 2"
+    image = "/softskill/softskill-2.JPG"
+    content = "Content"
+    badges  =  ["Javascript", "Vue"]
+    [[params.softskill.items]]
+    title = "Softskill 3"
+    image = "/softskill/softskill-3.JPG"
+    content = "Content"
+    badges  =  ["Python", "sci-kit"]
+    [[params.softskill.items]]
+    title = "Softskill 4"
+    image = "/softskill/softskill-4.JPG"
+    content = "Content"
+    badges  =  ["Python", "sci-kit"]
+
+  [params.color]
+  primaryColor = "#56CBF9"

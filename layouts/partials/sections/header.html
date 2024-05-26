@@ -121,6 +121,16 @@
                     </li>
                     {{ end }}
 
+                    <!--Add softskill, similar to projects-->
+                    {{ if and (.Site.Params.softskill.enable | default false) (not (.Site.Params.navbar.menus.disableSoftskill | default false)) }}
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="{{ .Site.BaseURL | relURL }}#softskill"
+                            aria-label="softskill">
+                            {{ .Site.Params.softskill.title | default "Softskill" }}
+                        </a>
+                    </li>
+                    {{ end }}
+
                     {{ if and (.Site.Params.achievements.enable | default false) (not (.Site.Params.navbar.menus.disableAchievements | default false)) }}
                     <li class="nav-item navbar-text">
                         <a class="nav-link" href="{{ .Site.BaseURL | relURL }}#achievements"
