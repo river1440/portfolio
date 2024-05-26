@@ -1,8 +1,4 @@
 /* projects */
-#projects {
-    background-color: var(--secondary-background-color-color) !important;
-}
-
 #projects h3 {
     color: var(--text-secondary-color) !important;
 }
