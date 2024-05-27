@@ -27,7 +27,7 @@ title = 'Portfolio | Huang Chuan'
       icon = "fa-solid fa-newspaper"
     # [[params.hero.socialLinks.customIcons]]
     #   url = ""
-    #   icon = "blog/light"    
+    #   icon = "blog/logo.png"    
   [params.about]
     enable = true
     title = "About"
