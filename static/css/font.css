@@ -13,10 +13,10 @@ body {
 
 /* primary font */
 .primary-font, #primary-font {
-    font-family: "Alata", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 /* Default font */
 .default-font, #default-font {
-    font-family: "Roboto", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }

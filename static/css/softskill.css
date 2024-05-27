@@ -2,7 +2,7 @@
 #softskill h3 {
     color: var(--text-secondary-color) !important;
     font-size: 2.5rem;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 #softskill a {
@@ -67,7 +67,7 @@
 
 #softskill .card-title {
     font-size: 1.75rem;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 #softskill .card-text {

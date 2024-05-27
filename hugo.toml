@@ -17,10 +17,10 @@ title = 'Portfolio | Huang Chuan'
       download = false
   [params.hero.socialLinks]
     [[params.hero.socialLinks.fontAwesomeIcons]]
-      url = ""
+      url = "https://www.linkedin.com/in/chuan-huang-068b84161/"
       icon = "fa-brands fa-linkedin"
     [[params.hero.socialLinks.fontAwesomeIcons]]
-      url = ""
+      url = "https://github.com/river1440-ce"
       icon = "fa-brands fa-github"
     [[params.hero.socialLinks.fontAwesomeIcons]]      
       url = "https://camelsrandomnotes.life/zh/"
