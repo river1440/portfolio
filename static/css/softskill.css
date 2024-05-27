@@ -1,4 +1,16 @@
 /* softskill */
+#softskill .section-intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+#softskill .section-intro-content {
+    opacity: 0.8;
+}
+
+
 #softskill h3 {
     color: var(--text-secondary-color) !important;
     font-size: 2.5rem;
