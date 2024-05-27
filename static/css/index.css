@@ -146,6 +146,27 @@ header .navbar.animate {
     cursor: pointer;
 }
 
+#hero .hero-image-container {
+    position: relative;
+}
+
+#hero .credit{
+    position: absolute;
+    bottom: 8px;
+    right: 32px;
+    font-size: 0.875rem;
+}
+
+#hero .credit > a {
+    text-decoration: none;
+    color: white;
+}
+
+#hero .credit > a:active {
+    text-decoration: none;
+    color: white;
+}
+
 #hero .hero-action-section {
     margin: 0px;
     gap: 1rem;

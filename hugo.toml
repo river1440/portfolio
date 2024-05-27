@@ -10,6 +10,9 @@ title = 'Portfolio | Huang Chuan'
     subtitle = "an enthusiastic developer with data mindset."
     content = "From an engineering background, I build software through a problem-sovling approach. With experience of leading students addressing sustainability, I ideate solution for a better future."
     image = "hero.JPG"
+    [params.hero.credit]
+      url = "https://www.instagram.com/theseafarerguy/"
+      text = "Credit: Rakesh Sikder"
     [params.hero.button]
       enable = true
       url = "https://drive.google.com/file/d/1KrS93yHSAgUkUyhCVHOXm2wJV1Y2_6P1/view?usp=sharing"
