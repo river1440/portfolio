@@ -1,6 +1,13 @@
 baseURL = 'https://river1440-ce.github.io/portfolio/'
 languageCode = 'en-us'
 title = 'Portfolio | Huang Chuan'
+[permalinks]
+  [permalinks.page]
+    tech-projects = 'tech-projects/:title/'
+    softskill = 'softskill/:title/'
+  [permalinks.section]
+    tech-projects = 'tech-projects/'
+    softskill = 'softskill/'
 [params]
   favicon = "fav.png"
   [params.hero]
