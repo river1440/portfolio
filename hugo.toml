@@ -27,7 +27,7 @@ title = 'Portfolio | Huang Chuan'
 [params]
   favicon = "fav.png"
   ShowBreadCrumbs = true
-  
+
   [params.hero]
     enable = true
     intro = "Hi! Greeting from"
@@ -74,14 +74,14 @@ title = 'Portfolio | Huang Chuan'
     content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
     image = "projects/project-1.JPG"
       [params.projects.data.cta]
-      url = ""
+      url = "tech-projects#data"
       message = "Click to check data projects"
     [params.projects.programming]
     title = "Programming"
     content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
     image = "projects/project-3.JPG"
       [params.projects.programming.cta]
-      url = ""
+      url = "tech-projects#programming"
       message = "Click to check programming projects"
     # [[params.projects.items]]
     # title = "Project 1"
@@ -115,16 +115,19 @@ title = 'Portfolio | Huang Chuan'
     content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
     [[params.softskill.items]]
     title = "Interdisciplinary"
+    url = "softskill#interdisciplinary"
     image = "softskill/softskill-1.JPG"
     content = "Engineering diploma with industry and policy research experience."
     badges  =  ["Python", "Django"]
     [[params.softskill.items]]
     title = "Cross-cultural"
+    url = "softskill#cross-cultural"
     image = "softskill/softskill-2.JPG"
     content = "Startup internship in Insrael and exchange in India for 10 months."
     badges  =  ["Javascript", "Vue"]
     [[params.softskill.items]]
     title = "Problem-Solution Fit"
+    url = "softskill#problem-solution-fit"
     image = "softskill/softskill-3.JPG"
     content = "Years of leading youth addressing sustainability issues on campus."
     badges  =  ["Python", "sci-kit"]

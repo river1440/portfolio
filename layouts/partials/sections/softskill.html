@@ -10,14 +10,16 @@
         <div class="row justify-content-center">
             {{ range .Site.Params.softskill.items }}
             <div class="col-lg-4 col-md-6 my-3">
-                <div class="card my-3 h-100" title="{{ .title }}" style="background-image:linear-gradient(to top,RGB(0 0 0/.8) 10%,transparent 50%), url('{{ .image }}')">
-                    <div class="card-body bg-transparent p-3">
-                        <h5 class="card-title bg-transparent mt-1">{{ .title }}</h5>
-                        <div class="card-text bg-transparent secondary-font">
-                            {{ .content }}
+                <a href="{{ .url }}">
+                    <div class="card my-3 h-100" title="{{ .title }}" style="background-image:linear-gradient(to top,RGB(0 0 0/.8) 10%,transparent 50%), url('{{ .image }}')">
+                        <div class="card-body bg-transparent p-3">
+                            <h5 class="card-title bg-transparent mt-1">{{ .title }}</h5>
+                            <div class="card-text bg-transparent secondary-font">
+                                {{ .content }}
+                            </div>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
             {{ end }}
             {{ range ( where .Site.RegularPages "Type" "Softskill" ) }}
