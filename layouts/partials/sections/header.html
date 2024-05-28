@@ -86,7 +86,7 @@
                         </li>
                     {{ end }}
 
-                    {{ if and (.Site.Params.about.enable | default false) (not (.Site.Params.navbar.menus.disableAbout | default false)) }}
+                    <!-- {{ if and (.Site.Params.about.enable | default false) (not (.Site.Params.navbar.menus.disableAbout | default false)) }}
                     <li class="nav-item navbar-text">
                         <a class="nav-link" href="{{ .Site.BaseURL | relURL }}#about" aria-label="about">
                             {{ .Site.Params.about.title | default "About" }}
@@ -119,10 +119,10 @@
                             {{ .Site.Params.projects.title | default "Projects" }}
                         </a>
                     </li>
-                    {{ end }}
+                    {{ end }} -->
 
                     <!--Add softskill, similar to projects-->
-                    {{ if and (.Site.Params.softskill.enable | default false) (not (.Site.Params.navbar.menus.disableSoftskill | default false)) }}
+                    <!-- {{ if and (.Site.Params.softskill.enable | default false) (not (.Site.Params.navbar.menus.disableSoftskill | default false)) }}
                     <li class="nav-item navbar-text">
                         <a class="nav-link" href="{{ .Site.BaseURL | relURL }}#softskill"
                             aria-label="softskill">
@@ -147,7 +147,7 @@
                             {{ .Site.Params.contact.title | default "Contact" }}
                         </a>
                     </li>
-                    {{ end }}
+                    {{ end }} -->
 
                     <!-- custom menus from the user -->
                     {{ range .Site.Menus.main }}

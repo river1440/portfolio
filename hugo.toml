@@ -1,6 +1,7 @@
 baseURL = 'https://river1440-ce.github.io/portfolio/'
 languageCode = 'en-us'
 title = 'Portfolio | Huang Chuan'
+
 [permalinks]
   [permalinks.page]
     tech-projects = 'tech-projects/:title/'
@@ -8,8 +9,24 @@ title = 'Portfolio | Huang Chuan'
   [permalinks.section]
     tech-projects = 'tech-projects/'
     softskill = 'softskill/'
+
+[menus]
+  [[menus.main]]
+    name = 'About'
+    pageRef = '/about'
+    weight = 10
+  [[menus.main]]
+    name = 'Tech Projects'
+    pageRef = '/tech-projects'
+    weight = 20
+  [[menus.main]]
+    name = 'Soft Skill'
+    pageRef = '/soft-skill'
+    weight = 30
+
 [params]
   favicon = "fav.png"
+
   [params.hero]
     enable = true
     intro = "Hi! Greeting from"
@@ -37,14 +54,18 @@ title = 'Portfolio | Huang Chuan'
       icon = "fa-solid fa-newspaper"
     # [[params.hero.socialLinks.customIcons]]
     #   url = ""
-    #   icon = "blog/logo.png"    
+    #   icon = "blog/logo.png"
+
   [params.about]
     enable = true
+    url = ""
     title = "About"
     image = "about-me.png"
     content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
+
   [params.projects]
     enable = true
+    url = ""
     title = "Tech Projects"
     content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
     [params.projects.data]
@@ -111,6 +132,7 @@ title = 'Portfolio | Huang Chuan'
     # image = "softskill/softskill-4.JPG"
     # content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
     # badges  =  ["Python", "sci-kit"]
+
   [params.color]
   primaryColor = "#56CBF9"
   secondaryBackgroundColor = "#FFFFFF"
