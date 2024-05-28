@@ -195,7 +195,7 @@ header .navbar.animate {
 
 #hero .action-btn {
     background-color: var(--primary-color);
-    color: white;
+    color: var(--background-color);
 
 }
 

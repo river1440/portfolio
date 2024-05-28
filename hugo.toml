@@ -140,3 +140,6 @@ title = 'Portfolio | Huang Chuan'
   [params.color]
   primaryColor = "#56CBF9"
   secondaryBackgroundColor = "#FFFFFF"
+
+  [params.theme]
+    defaultTheme = "dark"
