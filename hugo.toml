@@ -39,21 +39,36 @@ title = 'Portfolio | Huang Chuan'
   [params.projects]
     enable = true
     title = "Tech Projects"
-    [[params.projects.items]]
-    title = "Project 1"
+    content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
+    [params.projects.data]
+    title = "Data"
+    content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
     image = "projects/project-1.JPG"
+      [params.projects.data.cta]
+      url = ""
+      message = "Click to check data projects"
+    [params.projects.programming]
+    title = "Programming"
     content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
-    badges  =  ["Python", "Django"]
-    [[params.projects.items]]
-    title = "Project 2"
-    image = "projects/project-2.JPG"
-    content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
-    badges  =  ["Javascript", "Vue"]
-    [[params.projects.items]]
-    title = "Project 3"
     image = "projects/project-3.JPG"
-    content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
-    badges  =  ["Python", "sci-kit"]
+      [params.projects.programming.cta]
+      url = ""
+      message = "Click to check programming projects"
+    # [[params.projects.items]]
+    # title = "Project 1"
+    # image = "projects/project-1.JPG"
+    # content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
+    # badges  =  ["Python", "Django"]
+    # [[params.projects.items]]
+    # title = "Project 2"
+    # image = "projects/project-2.JPG"
+    # content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
+    # badges  =  ["Javascript", "Vue"]
+    # [[params.projects.items]]
+    # title = "Project 3"
+    # image = "projects/project-3.JPG"
+    # content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
+    # badges  =  ["Python", "sci-kit"]
     # [[params.projects.items]]
     # title = "Project 4"
     # image = "projects/project-4.JPG"
