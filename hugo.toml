@@ -26,7 +26,8 @@ title = 'Portfolio | Huang Chuan'
 
 [params]
   favicon = "fav.png"
-
+  ShowBreadCrumbs = true
+  
   [params.hero]
     enable = true
     intro = "Hi! Greeting from"

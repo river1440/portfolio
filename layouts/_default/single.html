@@ -17,7 +17,8 @@
       <div class="col-sm-12 col-md-12 col-lg-9">
         <div class="pr-lg-4">
           <div class="title mb-5">
-            <h1 class="text-center mb-4">{{ .Title }}</h1>
+            {{- partial "sections/breadcrumbs.html" . }}
+            <h1 class="mb-4">{{ .Title }}</h1>
             <div class="text-center">
               {{ .Params.author }} 
               <small>|</small>
