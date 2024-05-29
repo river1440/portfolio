@@ -1,3 +1,10 @@
+/* section */
+.section-head  {
+    font-weight: 800;
+    font-size: 6rem;
+    color: var(--primary-color);
+}
+
 /* projects */
 
 #projects  {

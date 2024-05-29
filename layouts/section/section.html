@@ -11,10 +11,36 @@
 {{ end }}
 
 {{ define "main" }}
-<div class="container pt-5" id="projects">
+<div class="container pt-5" id="data">
+    <h1 class="text-center pb-2 section-head">{{.Title}}</h1>
     <div class="row">
         {{ range .Paginator.Pages }}
-        <div class="col-lg-4 col-md-6 my-3">
+        <div class="row mb-5">
+            <div class="col-sm-12 col-md-12 col-lg-7 content row {{ if .Site.Params.animate }}animate{{ end }}" id="primary-font">
+                <div class="px-4">
+                    <div class="section-title d-flex gap-3">
+                        <h3>
+                            {{ .Title }}
+                        </h3>
+                    </div>
+                    <p class="hero-content">
+                        {{ .Summary }}
+                    </p>
+                </div>
+                <!-- <div class="d-flex align-items-end mb-3 px-4">
+                    <a href="{{ .Site.Params.projects.data.cta.url }}" class="cta-section">
+                        {{ .Site.Params.projects.data.cta.message }}
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div> -->
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-5">
+                <a href="{{ .RelPermalink }}">
+                    <img class= "hero-image" src="{{ .RelPermalink }}cover.JPG">
+                </a>
+            </div>
+        </div>
+        <!-- <div class="col-lg-4 col-md-6 my-3">
             <div class="card my-3 h-100" title="{{ .Title }}">
                 <div class="card-head">
                     <img class="card-img-top" src="{{ .Params.image }}" alt="{{ .Title }}">
@@ -45,7 +71,7 @@
                     </span>
                 </div>
             </div>
-        </div>
+        </div> -->
         {{ end }}
         <div class="row justify-content-center">
             <div class="col-auto m-3">
