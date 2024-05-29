@@ -12,10 +12,15 @@
 
 {{ define "main" }}
 <div class="container pt-5" id="data">
-    <h1 class="text-center pb-2 section-head">{{.Title}}</h1>
-    <div class="row">
+    <h1 class="text-center section-head">{{.Title}}</h1>
+    <div class="row mt-5">
         {{ range .Paginator.Pages }}
         <div class="row mb-5">
+            <div class="col-sm-12 col-md-12 col-lg-5">
+                <a href="{{ .RelPermalink }}">
+                    <img class= "w-100 h-100 object-fit-cover" src="{{ .RelPermalink }}cover.JPG">
+                </a>
+            </div>
             <div class="col-sm-12 col-md-12 col-lg-7 content row {{ if .Site.Params.animate }}animate{{ end }}" id="primary-font">
                 <div class="px-4">
                     <div class="section-title d-flex gap-3">
@@ -33,11 +38,6 @@
                         <i class="fa-solid fa-arrow-right"></i>
                     </a>
                 </div> -->
-            </div>
-            <div class="col-sm-12 col-md-12 col-lg-5">
-                <a href="{{ .RelPermalink }}">
-                    <img class= "hero-image" src="{{ .RelPermalink }}cover.JPG">
-                </a>
             </div>
         </div>
         <!-- <div class="col-lg-4 col-md-6 my-3">
