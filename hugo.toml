@@ -6,9 +6,16 @@ title = 'Portfolio | Huang Chuan'
   [permalinks.page]
     data = 'data/:title/'
     programming = 'programming/:title/'
+    cross-cultural = 'cross-cultural/:title/'
+    interdisciplinary = 'interdisciplinary/:title/'
+    problem-solution-fit = 'problem-solution-fit/:title/'
+    
   [permalinks.section]
     data = 'data/'
     programming = 'programming/'
+    cross-cultural = 'cross-cultural/'
+    interdisciplinary = 'interdisciplinary/'
+    problem-solution-fit = 'problem-solution-fit/'
 
 [menus]
   [[menus.main]]
@@ -23,6 +30,18 @@ title = 'Portfolio | Huang Chuan'
     name = 'Programming'
     pageRef = '/programming'
     weight = 30
+  [[menus.main]]
+    name = 'Cross-cultural'
+    pageRef = '/cross-cultural'
+    weight = 40
+  [[menus.main]]
+    name = 'Interdisciplinary'
+    pageRef = '/interdisciplinary'
+    weight = 50
+  [[menus.main]]
+    name = 'Problem-Solution Fit'
+    pageRef = '/problem-solution-fit'
+    weight = 60
 
 [params]
   favicon = "fav.png"
@@ -114,28 +133,20 @@ title = 'Portfolio | Huang Chuan'
     title = "Softskill"
     content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
     [[params.softskill.items]]
-    title = "Interdisciplinary"
-    url = "interdisciplinary"
-    image = "softskill/softskill-1.JPG"
-    content = "Engineering diploma with industry and policy research experience."
-    badges  =  ["Python", "Django"]
-    [[params.softskill.items]]
     title = "Cross-cultural"
     url = "cross-cultural"
     image = "softskill/softskill-2.JPG"
     content = "Startup internship in Insrael and exchange in India for 10 months."
-    badges  =  ["Javascript", "Vue"]
+    [[params.softskill.items]]
+    title = "Interdisciplinary"
+    url = "interdisciplinary"
+    image = "softskill/softskill-1.JPG"
+    content = "Engineering diploma with industry and policy research experience."
     [[params.softskill.items]]
     title = "Problem-Solution Fit"
     url = "problem-solution-fit"
     image = "softskill/softskill-3.JPG"
     content = "Years of leading youth addressing sustainability issues on campus."
-    badges  =  ["Python", "sci-kit"]
-    # [[params.softskill.items]]
-    # title = "Softskill 4"
-    # image = "softskill/softskill-4.JPG"
-    # content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
-    # badges  =  ["Python", "sci-kit"]
 
   [params.color]
   primaryColor = "#56CBF9"
