@@ -12,7 +12,7 @@
 
 
 #softskill h3 {
-    color: var(--text-secondary-color) !important;
+    color: var(--text-color) !important;
     font-size: 2.5rem;
     font-weight: 800;
 }
