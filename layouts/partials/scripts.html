@@ -1,17 +1,22 @@
 {{- if (eq .Site.Params.theme.defaultTheme "light") }}
 <script>
-    if (document.body.className.includes("dark")) {
-        document.body.classList.remove('dark');
-        localStorage.setItem("pref-theme", 'light');
-    }
+    /* If the pref-theme is not set to dark */
+    if (localStorage.getItem("pref-theme") != "dark"){
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        }}
 </script>
 
 {{ else if (eq .Site.Params.theme.defaultTheme "dark") }}
 {{- /* theme is dark */}}
 <script>
-    if (document.body.className.includes("light")) {
-        document.body.classList.add('dark');
-        localStorage.setItem("pref-theme", 'dark');
+    /* If the pref-theme is not set to light */
+    if (localStorage.getItem("pref-theme") != "light"){
+        if (document.body.className.includes("light")) {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
     }
 </script>
 

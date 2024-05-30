@@ -8,14 +8,14 @@ title = 'Portfolio | Huang Chuan'
     programming = 'programming/:title/'
     cross-cultural = 'cross-cultural/:title/'
     interdisciplinary = 'interdisciplinary/:title/'
-    problem-solution-fit = 'problem-solution-fit/:title/'
+    practice = 'practice/:title/'
     
   [permalinks.section]
     data = 'data/'
     programming = 'programming/'
     cross-cultural = 'cross-cultural/'
     interdisciplinary = 'interdisciplinary/'
-    problem-solution-fit = 'problem-solution-fit/'
+    practice = 'practice/'
 
 [menus]
   [[menus.main]]
@@ -39,8 +39,8 @@ title = 'Portfolio | Huang Chuan'
     pageRef = '/interdisciplinary'
     weight = 50
   [[menus.main]]
-    name = 'Problem-Solution Fit'
-    pageRef = '/problem-solution-fit'
+    name = 'Practice'
+    pageRef = '/practice'
     weight = 60
 
 [markup]
@@ -149,8 +149,8 @@ title = 'Portfolio | Huang Chuan'
     image = "softskill/softskill-1.JPG"
     content = "Engineering diploma with industry and policy research experience."
     [[params.softskill.items]]
-    title = "Problem-Solution Fit"
-    url = "problem-solution-fit"
+    title = "Practice"
+    url = "practice"
     image = "softskill/softskill-3.JPG"
     content = "Years of leading youth addressing sustainability issues on campus."
 
