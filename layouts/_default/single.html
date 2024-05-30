@@ -14,15 +14,19 @@
 <section id="single">
   <div class="container">
     <div class="row justify-content-center">
+      {{ if .Site.Params.singlePages.sidebar | default true}}
       <div class="col-sm-12 col-md-12 col-lg-9">
+      {{ else }}
+      <div class="col-sm-12 col-md-12 col-lg-12">
+      {{ end }}
         <div class="pr-lg-4">
           <div class="title mb-5">
             {{- partial "sections/breadcrumbs.html" . }}
             <h1 class="mb-4">{{ .Title }}</h1>
             <div class="text-center">
               {{ .Params.author }} 
-              <small>|</small>
-              {{ .Date.Format (.Site.Params.datesFormat.article | default "Jan 2, 2006") }}
+              <!-- <small>|</small>
+              {{ .Date.Format (.Site.Params.datesFormat.article | default "Jan 2, 2006") }} -->
 
               {{ if or (.Site.Params.singlePages.readTime.enable | default true) (.Params.enableReadingTime) }}
               <span id="readingTime">
@@ -41,6 +45,7 @@
           </article>
         </div>
       </div>
+      {{ if .Site.Params.singlePages.sidebar | default true}}
       <div class="col-sm-12 col-md-12 col-lg-3">
         <div id="stickySideBar" class="sticky-sidebar">
           {{ if .Params.toc | default true}}
@@ -96,6 +101,7 @@
           {{ end }}
         </div>
       </div>
+      {{ end }}
     </div>
     <div class="row">
       <div class="col-sm-12 col-md-12 col-lg-9 p-4">

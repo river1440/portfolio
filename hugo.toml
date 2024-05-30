@@ -43,6 +43,12 @@ title = 'Portfolio | Huang Chuan'
     pageRef = '/problem-solution-fit'
     weight = 60
 
+[markup]
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 1
+
 [params]
   favicon = "fav.png"
   ShowBreadCrumbs = true
@@ -147,6 +153,12 @@ title = 'Portfolio | Huang Chuan'
     url = "problem-solution-fit"
     image = "softskill/softskill-3.JPG"
     content = "Years of leading youth addressing sustainability issues on campus."
+
+    [params.singlePages]
+      sidebar = false
+
+      [params.singlePages.readTime]
+        enable = false
 
   [params.color]
   primaryColor = "#56CBF9"
