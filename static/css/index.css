@@ -322,6 +322,12 @@ object-fit: cover;
     width: 100%;
 }
 
+#about .img-thumbnail{
+    /* ensure it is a circle*/
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
 /* experience */
 
 #experience h3 {
