@@ -5,4 +5,5 @@ draft = false
 tags = []
 unique_id = "88e2b3fd16269bf69d14b2b7ad47032b"
 aliases = ["88e2b3fd16269bf69d14b2b7ad47032b"]
+weight = 10
 +++
