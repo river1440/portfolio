@@ -1,8 +1,8 @@
 {{ if .Site.Params.softskill.enable | default false }}
 <section id="softskill" class="py-5">
     <div class="container px-3 px-md-5">
-        <div class="text-center section-intro">
-            <div class="col-12 col-lg-8">
+        <div class="section-intro">
+            <div class="col-12">
                 <h3>{{ .Site.Params.softskill.title | default "Softskill" }}</h3>
                 <scan class="section-intro-content">{{ .Site.Params.softskill.content | default "Softskill" }}</scan>
             </div>
