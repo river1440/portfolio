@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming on Portfolio | Huang Chuan</title>
+    <link>http://localhost:1313/portfolio/programming/</link>
+    <description>Recent content in Programming on Portfolio | Huang Chuan</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 31 May 2024 13:06:34 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/portfolio/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NJFP (Not Just Final Project)</title>
+      <link>http://localhost:1313/portfolio/programming/njfp-not-just-final-project/</link>
+      <pubDate>Fri, 31 May 2024 13:06:24 +0800</pubDate>
+      <guid>http://localhost:1313/portfolio/programming/njfp-not-just-final-project/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Service-oriented architecture</title>
+      <link>http://localhost:1313/portfolio/programming/service-oriented-architecture/</link>
+      <pubDate>Fri, 31 May 2024 13:06:34 +0800</pubDate>
+      <guid>http://localhost:1313/portfolio/programming/service-oriented-architecture/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Service Security</title>
+      <link>http://localhost:1313/portfolio/programming/service-security/</link>
+      <pubDate>Fri, 31 May 2024 13:06:31 +0800</pubDate>
+      <guid>http://localhost:1313/portfolio/programming/service-security/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

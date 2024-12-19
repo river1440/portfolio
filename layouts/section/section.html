@@ -18,7 +18,7 @@
         <div class="row mb-5">
             <div class="col-sm-12 col-md-12 col-lg-5">
                 <a href="{{ .RelPermalink }}">
-                    <img class= "w-100 h-100 object-fit-cover item-image" src="{{ .RelPermalink }}cover.JPG">
+                    <img class= "w-100 h-100 rounded-4 item-image" src="{{ .RelPermalink }}{{ .Params.cover_image }}">
                 </a>
             </div>
             <div class="col-sm-12 col-md-12 col-lg-7 content row {{ if .Site.Params.animate }}animate{{ end }}" id="primary-font">

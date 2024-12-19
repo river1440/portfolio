@@ -130,7 +130,7 @@ title = 'Portfolio | Huang Chuan'
     content = "Years of leading youth addressing sustainability issues on campus."
 
     [params.singlePages]
-      sidebar = false
+      sidebar = true
 
       [params.singlePages.readTime]
         enable = false
