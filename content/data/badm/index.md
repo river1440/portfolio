@@ -6,7 +6,8 @@ tags = []
 unique_id = "f57183fbbb73614b2e167056ec61405d"
 aliases = ["f57183fbbb73614b2e167056ec61405d"]
 weight = 10
-og_image = "association_rules.png"
+# For Open Graph and Twitter Card
+images = ["association_rules.png"]
 cover_image = "association_rules.png"
 image = "head.png"
 summary = "Product Bundling using Machine Learning for Increasing Profit while Promoting Sustainable Purchase Behaviors at Little Green Shop"
