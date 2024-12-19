@@ -52,6 +52,7 @@ title = 'Portfolio | Huang Chuan'
 [params]
   favicon = "fav.png"
   ShowBreadCrumbs = true
+  # For Open Graph and Twitter Card
   images = ["/images/default_image.jpg"]
 
   [params.hero]
