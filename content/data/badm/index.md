@@ -110,3 +110,6 @@ In addition, on-time model might not be practical as this is a shop weather then
 
 ## 3. There are always results from  data mining, where challenges come are the explanation
 For example, at first when we get the result from CART, it looks inspiring as the analysis do pick variables. (ex. egg, facial cleanser, dish detergent) Only when we examine the result, it shows that the majority of the records are for people who NOT bought these product, and while they seems to prefer bringing container, the ratio is actually quite similar to the overall ration. Thus, similar results could be attained if we just check buying which products would be strongly related to bring containers.
+
+# Supplement
+1. {{< link_blank "https://drive.google.com/file/d/1RENF_ENuHe2d8yUApXpKN2-Ra_HdoY21/view?usp=drive_link" "Project Report" >}}
