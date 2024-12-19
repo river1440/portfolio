@@ -145,8 +145,12 @@ header .navbar.animate {
     filter: contrast(1.2);
     cursor: pointer;
 }
-
+#hero .hero-image-wrapper {
+    padding: 6rem 6rem 6rem 2rem;
+}
 #hero .hero-image-container {
+    width: 100%;
+    height: 100%;
     position: relative;
 }
 
