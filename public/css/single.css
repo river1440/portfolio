@@ -27,6 +27,27 @@
     background-color: var(--secondary-color);
 }
 
+#single .project-info-list {
+    list-style-type: none;
+    padding: 1rem;
+    margin-bottom: 0rem
+}
+
+#single ul.project-info-list li{
+    margin-bottom: 0.3rem; /* Spacing between list items */
+}
+
+#single ul.project-info-list li span.icon-cell {
+    display: inline-block;
+    width: 2rem; /* Set fixed width */
+    text-align: center; /* Optional: Center the icon */
+}
+
+#single ul.project-info-list li span p.summary {
+    padding-left: 2.25rem;
+    margin-bottom: 0rem
+}
+
 #single .page-content img {
     max-width: 100%;
     border-radius: 1rem;

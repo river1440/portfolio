@@ -9,17 +9,15 @@ weight = 10
 cover_image = "association_rules.png"
 image = "head.png"
 summary = "Product Bundling using Machine Learning for Increasing Profit while Promoting Sustainable Purchase Behaviors at Little Green Shop"
+project_info = true
+project_title = "Product Bundling using Machine Learning for Increasing Profit while Promoting Sustainable Purchase Behaviors at Little Green Shop"
+project_size = "4 members"
+project_duration = "3 months"
+project_timeframe = "2022 October → December"
+project_lang = "English"
+project_type = "Course Project"
+project_summary = "This project aimed to assist a zero-waste shop in increasing in-store sales and promoting sustainable shopping behaviors through data-driven insights. Using POS data, we applied machine learning techniques such as CART, Logistic Regression, and Association Rules through RapidMiner to identify product combinations and analyze container usage patterns. Key findings include product combinations that inform sales strategies and understandings of customer behavior."
 +++
-# Project Info
-
-- **Title:** Product Bundling using Machine Learning for Increasing Profit while Promoting Sustainable Purchase Behaviors at Little Green Shop
-- **Project Size:** 4 members
-- **Duration:** 3 months
-- **Timeframe:** 2022 October → December
-- **Language:** English
-- **Type:** Course Project
-- **Summary:** This project aimed to assist a zero-waste shop in increasing in-store sales and promoting sustainable shopping behaviors through data-driven insights. Using POS data, we applied machine learning techniques such as CART, Logistic Regression, and Association Rules through RapidMiner to identify product combinations and analyze container usage patterns. Key findings include product combinations that inform sales strategies and understandings of customer behavior.
-
 # Background
 
 This project is the final project from the course ***509000 Business analytics using data mining,*** offered by professor Galit Shmueli from Institute of Service Science, NTHU. 
