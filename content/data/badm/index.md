@@ -9,11 +9,11 @@ weight = 10
 # For Open Graph and Twitter Card
 images = ["association_rules.png"]
 cover_image = "association_rules.png"
-image = "head.png"
+header_image = "head.png"
 summary = "Product Bundling using Machine Learning for Increasing Profit while Promoting Sustainable Purchase Behaviors at Little Green Shop"
 project_info = true
 project_title = "Product Bundling using Machine Learning for Increasing Profit while Promoting Sustainable Purchase Behaviors at Little Green Shop"
-project_size = "4 members"
+team_size = "4 members"
 project_duration = "3 months"
 project_timeframe = "2022 October → December"
 project_lang = "English"

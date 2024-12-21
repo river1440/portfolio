@@ -35,9 +35,9 @@
               {{ end }}
             </div>
           </div>
-          {{ if .Params.image }}
+          {{ if .Params.header_image }}
           <div class="featured-image">
-            <img class="img-fluid mx-auto d-block" src="{{ .Params.image }}" alt="{{ .Title }}">
+            <img class="img-fluid mx-auto d-block" src="{{ .Params.header_image }}" alt="{{ .Title }}">
           </div>
           {{ end }}
           {{ if .Params.project_info  | default true}}
@@ -48,10 +48,10 @@
               <span><strong>Title</strong>&nbsp;&nbsp;{{ .Params.project_title }}</span>
             </li>
             {{ end }}
-            {{ if .Params.project_size }}
+            {{ if .Params.team_size }}
             <li>
               <span class="icon-cell"><i class="fa fa-user-group" aria-hidden="true"></i></span>
-              <span><strong>Project Size</strong>&nbsp;&nbsp;{{ .Params.project_size }}</span>
+              <span><strong>Team Size</strong>&nbsp;&nbsp;{{ .Params.team_size }}</span>
             </li>
             {{ end }}
             {{ if .Params.project_duration }}
