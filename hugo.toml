@@ -78,21 +78,26 @@ title = 'Portfolio | Huang Chuan'
     enable = true
     title = "Projects"
     content = "With international experience, Chuan is adapted to collaborate with talents from various culture background. Earned a bachelor of Engineering, as well as being a research fellow in center for ESG research, Chuan is open-minded for aspects from different domains. To promote sustainability, Chuan led tens of youth to address SDGs on campus by utilizing design methods."
-    [[params.projects.items]]
-    title = "Cross-cultural"
-    url = "cross-cultural"
-    image = "softskill/softskill-2.JPG"
-    content = "Startup internship in Israel and exchange in India for 10 months."
-    [[params.projects.items]]
-    title = "Interdisciplinary"
-    url = "interdisciplinary"
-    image = "softskill/softskill-1.JPG"
-    content = "Engineering diploma with industry and policy research experience."
-    [[params.projects.items]]
-    title = "Implementation"
-    url = "implementation"
-    image = "softskill/softskill-3.JPG"
-    content = "Years of leading youth addressing sustainability issues on campus."
+    items = [
+      "/projects/badm/",
+      "/projects/njfp/",
+      "/projects/smc/"
+    ]
+    # [[params.projects.items]]
+    # title = "Cross-cultural"
+    # url = "cross-cultural"
+    # image = "softskill/softskill-2.JPG"
+    # content = "Startup internship in Israel and exchange in India for 10 months."
+    # [[params.projects.items]]
+    # title = "Interdisciplinary"
+    # url = "interdisciplinary"
+    # image = "softskill/softskill-1.JPG"
+    # content = "Engineering diploma with industry and policy research experience."
+    # [[params.projects.items]]
+    # title = "Implementation"
+    # url = "implementation"
+    # image = "softskill/softskill-3.JPG"
+    # content = "Years of leading youth addressing sustainability issues on campus."
 
 
 

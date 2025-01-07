@@ -5,7 +5,7 @@ draft = false
 tags = []
 unique_id = "f57183fbbb73614b2e167056ec61405d"
 aliases = ["f57183fbbb73614b2e167056ec61405d"]
-weight = 10
+weight = 50
 # For Open Graph and Twitter Card
 images = ["association_rules.png"]
 cover_image = "association_rules.png"

@@ -7,17 +7,11 @@
                 <scan class="section-intro-content">{{ .Site.Params.projects.content | default "Projects" }}</scan>
             </div>
         </div>
-        <div class="row row-cols-1 row-cols-md-2 row-cols-xl-4 gy-4">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 gy-4">
             {{ range .Site.Params.projects.items }}
-            <div class="card col bg-transparent border-0">
-                <a href="{{ .url }}">
-                    <img src="{{ .image }}" class="card-img-top rounded-3">
-                </a>
-                <div class="card-body justify-content-start px-0">
-                    <h5 class="card-title fs-4 fw-semibold">{{ .title }}</h5>
-                    <p class="card-text fw-normal">{{ .content }}</p>
-                </div>
-            </div>
+            {{ with (site.GetPage .) }}
+            {{ partial "sections/project-card.html" . }}
+            {{ end }}
             {{ end }}
         </div>
     </div>
