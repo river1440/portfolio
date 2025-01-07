@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PROJECTS on Portfolio | Huang Chuan</title>
+    <link>http://localhost:1313/portfolio/projects/</link>
+    <description>Recent content in PROJECTS on Portfolio | Huang Chuan</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 31 May 2024 13:06:34 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/portfolio/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Service-oriented architecture</title>
+      <link>http://localhost:1313/portfolio/projects/service-oriented-architecture/</link>
+      <pubDate>Fri, 31 May 2024 13:06:34 +0800</pubDate>
+      <guid>http://localhost:1313/portfolio/projects/service-oriented-architecture/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Service Security</title>
+      <link>http://localhost:1313/portfolio/projects/service-security/</link>
+      <pubDate>Fri, 31 May 2024 13:06:31 +0800</pubDate>
+      <guid>http://localhost:1313/portfolio/projects/service-security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Social Media Computing</title>
+      <link>http://localhost:1313/portfolio/projects/social-media-computing/</link>
+      <pubDate>Fri, 31 May 2024 13:06:01 +0800</pubDate>
+      <guid>http://localhost:1313/portfolio/projects/social-media-computing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>NJFP (Not Just Final Project)</title>
+      <link>http://localhost:1313/portfolio/projects/njfp-not-just-final-project/</link>
+      <pubDate>Fri, 31 May 2024 13:06:24 +0800</pubDate>
+      <guid>http://localhost:1313/portfolio/projects/njfp-not-just-final-project/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Business Analytics Using Data Mining</title>
+      <link>http://localhost:1313/portfolio/projects/business-analytics-using-data-mining/</link>
+      <pubDate>Fri, 31 May 2024 13:05:53 +0800</pubDate>
+      <guid>http://localhost:1313/portfolio/projects/business-analytics-using-data-mining/</guid>
+      <description>Product Bundling using Machine Learning for Increasing Profit while Promoting Sustainable Purchase Behaviors at Little Green Shop</description>
+    </item>
+  </channel>
+</rss>

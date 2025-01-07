@@ -4,18 +4,12 @@ title = 'Portfolio | Huang Chuan'
 
 [permalinks]
   [permalinks.page]
-    data = 'data/:title/'
-    programming = 'programming/:title/'
-    cross-cultural = 'cross-cultural/:title/'
-    interdisciplinary = 'interdisciplinary/:title/'
-    implementation = 'implementation/:title/'
+    projects = 'projects/:title/'
+    experiences = 'experiences/:title/'
     
   [permalinks.section]
-    data = 'data/'
-    programming = 'programming/'
-    cross-cultural = 'cross-cultural/'
-    interdisciplinary = 'interdisciplinary/'
-    implementation = 'implementation/'
+    projects = 'projects/'
+    experiences = 'experiences/'
 
 [menus]
   # [[menus.main]]
@@ -23,25 +17,13 @@ title = 'Portfolio | Huang Chuan'
   #   pageRef = '/about'
   #   weight = 10
   [[menus.main]]
-    name = 'Data'
-    pageRef = '/data'
+    name = 'Projects'
+    pageRef = '/projects'
     weight = 20
   [[menus.main]]
-    name = 'Programming'
-    pageRef = '/programming'
+    name = 'Experiences'
+    pageRef = '/experiences'
     weight = 30
-  [[menus.main]]
-    name = 'Cross-cultural'
-    pageRef = '/cross-cultural'
-    weight = 40
-  [[menus.main]]
-    name = 'Interdisciplinary'
-    pageRef = '/interdisciplinary'
-    weight = 50
-  [[menus.main]]
-    name = 'Implementation'
-    pageRef = '/implementation'
-    weight = 60
 
 [markup]
   [markup.tableOfContents]
@@ -50,6 +32,7 @@ title = 'Portfolio | Huang Chuan'
     startLevel = 1
 
 [params]
+  UseBootstrapCDN = true
   favicon = "fav.png"
   ShowBreadCrumbs = true
   # For Open Graph and Twitter Card
@@ -93,43 +76,70 @@ title = 'Portfolio | Huang Chuan'
 
   [params.projects]
     enable = true
-    url = ""
-    title = "Tech Projects"
-    content = "Studying in both Business Analytics and Information Systems modules from his master program, Chuan is trained to think and build digital products in two ways: Diagnosis and extracting insights from data with Machine Learning methods, and crafting digital service through programming."
-    [params.projects.data]
-    title = "Data"
-    content = "From collaboration with local shop to analysis data from big companies’ open source data, Chuan had build Data projects with skills like Machine Learning and Social Network Analysis, to provide business insight."
-    image = "projects/project-1.JPG"
-      [params.projects.data.cta]
-      url = "data"
-      message = "Click to check data projects"
-    [params.projects.programming]
-    title = "Programming"
-    content = "From specilaized course projects to end-to-end side projects, Chuan had programmed projects mainly by Python and R. While some projects address specific issues, such as architecture or security, others are starting from scartch, targeting the real need in daily life."
-    image = "projects/project-3.JPG"
-      [params.projects.programming.cta]
-      url = "programming"
-      message = "Click to check programming projects"
-
-  [params.softskill]
-    enable = true
-    title = "Softskill"
+    title = "Projects"
     content = "With international experience, Chuan is adapted to collaborate with talents from various culture background. Earned a bachelor of Engineering, as well as being a research fellow in center for ESG research, Chuan is open-minded for aspects from different domains. To promote sustainability, Chuan led tens of youth to address SDGs on campus by utilizing design methods."
-    [[params.softskill.items]]
-    title = "Cross-cultural"
-    url = "cross-cultural"
-    image = "softskill/softskill-2.JPG"
-    content = "Startup internship in Israel and exchange in India for 10 months."
-    [[params.softskill.items]]
-    title = "Interdisciplinary"
-    url = "interdisciplinary"
-    image = "softskill/softskill-1.JPG"
-    content = "Engineering diploma with industry and policy research experience."
-    [[params.softskill.items]]
-    title = "Implementation"
-    url = "implementation"
-    image = "softskill/softskill-3.JPG"
-    content = "Years of leading youth addressing sustainability issues on campus."
+    items = [
+      "/projects/badm/",
+      "/projects/njfp/",
+      "/projects/smc/"
+    ]
+    # [[params.projects.items]]
+    # title = "Cross-cultural"
+    # url = "cross-cultural"
+    # image = "softskill/softskill-2.JPG"
+    # content = "Startup internship in Israel and exchange in India for 10 months."
+    # [[params.projects.items]]
+    # title = "Interdisciplinary"
+    # url = "interdisciplinary"
+    # image = "softskill/softskill-1.JPG"
+    # content = "Engineering diploma with industry and policy research experience."
+    # [[params.projects.items]]
+    # title = "Implementation"
+    # url = "implementation"
+    # image = "softskill/softskill-3.JPG"
+    # content = "Years of leading youth addressing sustainability issues on campus."
+
+
+
+  # [params.projects]
+  #   enable = true
+  #   url = ""
+  #   title = "Tech Projects"
+  #   content = "Studying in both Business Analytics and Information Systems modules from his master program, Chuan is trained to think and build digital products in two ways: Diagnosis and extracting insights from data with Machine Learning methods, and crafting digital service through programming."
+  #   [params.projects.data]
+  #   title = "Data"
+  #   content = "From collaboration with local shop to analysis data from big companies’ open source data, Chuan had build Data projects with skills like Machine Learning and Social Network Analysis, to provide business insight."
+  #   image = "projects/project-1.JPG"
+  #     [params.projects.data.cta]
+  #     url = "data"
+  #     message = "Click to check data projects"
+  #   [params.projects.programming]
+  #   title = "Programming"
+  #   content = "From specilaized course projects to end-to-end side projects, Chuan had programmed projects mainly by Python and R. While some projects address specific issues, such as architecture or security, others are starting from scartch, targeting the real need in daily life."
+  #   image = "projects/project-3.JPG"
+  #     [params.projects.programming.cta]
+  #     url = "programming"
+  #     message = "Click to check programming projects"
+
+  # [params.softskill]
+  #   enable = true
+  #   title = "Softskill"
+  #   content = "With international experience, Chuan is adapted to collaborate with talents from various culture background. Earned a bachelor of Engineering, as well as being a research fellow in center for ESG research, Chuan is open-minded for aspects from different domains. To promote sustainability, Chuan led tens of youth to address SDGs on campus by utilizing design methods."
+  #   [[params.softskill.items]]
+  #   title = "Cross-cultural"
+  #   url = "cross-cultural"
+  #   image = "softskill/softskill-2.JPG"
+  #   content = "Startup internship in Israel and exchange in India for 10 months."
+  #   [[params.softskill.items]]
+  #   title = "Interdisciplinary"
+  #   url = "interdisciplinary"
+  #   image = "softskill/softskill-1.JPG"
+  #   content = "Engineering diploma with industry and policy research experience."
+  #   [[params.softskill.items]]
+  #   title = "Implementation"
+  #   url = "implementation"
+  #   image = "softskill/softskill-3.JPG"
+  #   content = "Years of leading youth addressing sustainability issues on campus."
 
     [params.singlePages]
       sidebar = true

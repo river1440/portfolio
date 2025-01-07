@@ -2,7 +2,9 @@
 <meta name="description" content={{ .Site.Params.description }}>
 <link rel="stylesheet" href="css/index.css" media="all">
 <link rel="stylesheet" href="css/projects.css" media="all">
-<link rel="stylesheet" href="css/softskill.css" media="all">
+<link rel="stylesheet" href="css/experiences.css" media="all">
+<!-- <link rel="stylesheet" href="css/projects.css" media="all">
+<link rel="stylesheet" href="css/softskill.css" media="all"> -->
 
 <!-- fontawesome -->
 <script defer src="{{ .Site.BaseURL }}/fontawesome-6/all-6.4.2.js"></script>
@@ -15,10 +17,6 @@
 {{ define "main" }}
 {{- partial "sections/hero/index.html" . -}}
 {{- partial "sections/about.html" . -}}
-{{- partial "sections/experience.html" . -}}
-{{- partial "sections/education.html" . -}}
 {{- partial "sections/projects.html" . -}}
-{{- partial "sections/softskill.html" . -}}
-{{- partial "sections/achievements.html" . -}}
-{{- partial "sections/contact.html" . -}}
+{{- partial "sections/experiences.html" . -}}
 {{ end }}
