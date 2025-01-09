@@ -5,11 +5,11 @@ title = 'Portfolio | Huang Chuan'
 [permalinks]
   [permalinks.page]
     projects = 'projects/:title/'
-    experiences = 'experiences/:title/'
+    # experiences = 'experiences/:title/'
     
   [permalinks.section]
     projects = 'projects/'
-    experiences = 'experiences/'
+    # experiences = 'experiences/'
 
 [menus]
   # [[menus.main]]
@@ -20,10 +20,10 @@ title = 'Portfolio | Huang Chuan'
     name = 'Projects'
     pageRef = '/projects'
     weight = 20
-  [[menus.main]]
-    name = 'Experiences'
-    pageRef = '/experiences'
-    weight = 30
+  # [[menus.main]]
+  #   name = 'Experiences'
+  #   pageRef = '/experiences'
+  #   weight = 30
 
 [markup]
   [markup.tableOfContents]
@@ -37,7 +37,8 @@ title = 'Portfolio | Huang Chuan'
   ShowBreadCrumbs = true
   # For Open Graph and Twitter Card
   images = ["/images/default_image.jpg"]
-
+  [params.navbar]
+  disableSearch = true
   [params.hero]
     enable = true
     intro = "Hi! Greeting from"
@@ -150,7 +151,7 @@ title = 'Portfolio | Huang Chuan'
         enable = false
 
   [params.color]
-  primaryColor = "#56CBF9"
+  primaryColor = "#0E7490"
   secondaryBackgroundColor = "#FFFFFF"
 
   [params.theme]

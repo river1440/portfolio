@@ -16,39 +16,18 @@
       <description>Product Bundling using Machine Learning for Increasing Profit while Promoting Sustainable Purchase Behaviors at Little Green Shop</description>
     </item>
     <item>
-      <title>Tang Juan 躺卷</title>
-      <link>http://localhost:1313/portfolio/projects/tang-juan-%E8%BA%BA%E5%8D%B7/</link>
+      <title>Tangjuan</title>
+      <link>http://localhost:1313/portfolio/projects/tangjuan/</link>
       <pubDate>Tue, 07 Jan 2025 21:19:19 +0800</pubDate>
-      <guid>http://localhost:1313/portfolio/projects/tang-juan-%E8%BA%BA%E5%8D%B7/</guid>
-      <description></description>
+      <guid>http://localhost:1313/portfolio/projects/tangjuan/</guid>
+      <description>As a on-going side project derived from a gossip about personal finance, Tang Juan took a bottom-up approach to implement a web app for empowering user making well-informed personal financial decision. This project is built with Python (Backend/Flask) and Javascript. (Frontend/Vue.js)</description>
     </item>
     <item>
-      <title>NJFP (Not Just Final Project)</title>
-      <link>http://localhost:1313/portfolio/projects/njfp-not-just-final-project/</link>
+      <title>NJFP</title>
+      <link>http://localhost:1313/portfolio/projects/njfp/</link>
       <pubDate>Fri, 31 May 2024 13:06:24 +0800</pubDate>
-      <guid>http://localhost:1313/portfolio/projects/njfp-not-just-final-project/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Social Media Computing</title>
-      <link>http://localhost:1313/portfolio/projects/social-media-computing/</link>
-      <pubDate>Fri, 31 May 2024 13:06:01 +0800</pubDate>
-      <guid>http://localhost:1313/portfolio/projects/social-media-computing/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Service Security</title>
-      <link>http://localhost:1313/portfolio/projects/service-security/</link>
-      <pubDate>Fri, 31 May 2024 13:06:31 +0800</pubDate>
-      <guid>http://localhost:1313/portfolio/projects/service-security/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Service-oriented architecture</title>
-      <link>http://localhost:1313/portfolio/projects/service-oriented-architecture/</link>
-      <pubDate>Fri, 31 May 2024 13:06:34 +0800</pubDate>
-      <guid>http://localhost:1313/portfolio/projects/service-oriented-architecture/</guid>
-      <description></description>
+      <guid>http://localhost:1313/portfolio/projects/njfp/</guid>
+      <description>NJFP is a side project aims to provide a hosting service for people easily managing their project experiences. Serving as a self-taught project, NJFP started from defining need and goals with persona, creating Figma prototype, hosting UI components on Storybook, to defining ER diagram and setting api documentation with Swagger UI.</description>
     </item>
   </channel>
 </rss>
