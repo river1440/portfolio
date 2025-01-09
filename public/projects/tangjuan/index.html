@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html>
+
+<head><script src="/portfolio/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=portfolio/livereload" data-no-instant defer></script><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
+<link rel="icon" href="http://localhost:1313/portfolio//fav.png" type="image/gif">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+>
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      media="print" onload="this.media='all'" />
+<noscript>
+  <link
+          href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet">
+</noscript>
+
+
+<link rel="stylesheet" href="http://localhost:1313/portfolio//css/font.css" media="all">
+
+
+
+<meta property="og:url" content="http://localhost:1313/portfolio/projects/tangjuan/">
+  <meta property="og:site_name" content="Portfolio | Huang Chuan">
+  <meta property="og:title" content="Tangjuan">
+  <meta property="og:description" content="As a on-going side project derived from a gossip about personal finance, Tang Juan took a bottom-up approach to implement a web app for empowering user making well-informed personal financial decision. This project is built with Python (Backend/Flask) and Javascript. (Frontend/Vue.js)">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="projects">
+    <meta property="article:published_time" content="2025-01-07T21:19:19+08:00">
+    <meta property="article:modified_time" content="2025-01-07T21:19:19+08:00">
+    <meta property="og:image" content="http://localhost:1313/portfolio/projects/tangjuan/cover.png">
+
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/portfolio/projects/tangjuan/cover.png">
+  <meta name="twitter:title" content="Tangjuan">
+  <meta name="twitter:description" content="As a on-going side project derived from a gossip about personal finance, Tang Juan took a bottom-up approach to implement a web app for empowering user making well-informed personal financial decision. This project is built with Python (Backend/Flask) and Javascript. (Frontend/Vue.js)">
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"><link rel="stylesheet" href="http://localhost:1313/portfolio//css/header.css" media="all">
+<link rel="stylesheet" href="http://localhost:1313/portfolio//css/footer.css" media="all">
+
+
+<link rel="stylesheet" href="http://localhost:1313/portfolio//css/theme.css" media="all">
+
+
+
+
+<style>
+    :root {
+        --text-color: #343a40;
+        --text-secondary-color: #6c757d;
+        --background-color: #eaedf0;
+        --secondary-background-color: #FFFFFF;
+        --primary-color: #0E7490;
+        --secondary-color: #f8f9fa;
+
+         
+        --text-color-dark: #e4e6eb;
+        --text-secondary-color-dark: #b0b3b8;
+        --background-color-dark: #18191a;
+        --secondary-background-color-dark: #212529;
+        --primary-color-dark: #ffffff;
+        --secondary-color-dark: #212529;
+    }
+    body {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: left;
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    a:hover {
+        color: inherit;
+        opacity: 0.7;
+    }
+
+    html {
+        background-color: var(--background-color) !important;
+    }
+
+    body::-webkit-scrollbar {
+        height: 0px;
+        width: 8px;
+        background-color: var(--background-color);
+    }
+    
+    ::-webkit-scrollbar-track {
+        border-radius: 1rem;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        border-radius: 1rem;
+        background: #b0b0b0;
+        outline: 1px solid var(--background-color);
+    }
+
+    #search-content::-webkit-scrollbar {
+        width: .5em;
+        height: .1em;
+        background-color: var(--background-color);
+    }
+</style>
+
+
+<meta name="description" content="">
+<link rel="stylesheet" href="http://localhost:1313/portfolio//css/single.css">
+
+
+<script defer src="http://localhost:1313/portfolio//fontawesome-6/all-6.4.2.js"></script>
+
+  <title>
+Tangjuan | Portfolio | Huang Chuan
+
+  </title>
+</head>
+
+<body class="light">
+  
+  
+<script>
+    let localStorageValue = localStorage.getItem("pref-theme");
+    let mediaQuery = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+    switch (localStorageValue) {
+        case "dark":
+            document.body.classList.add('dark');
+            break;
+        case "light":
+            document.body.classList.remove('dark');
+            break;
+        default:
+            if (mediaQuery) {
+                document.body.classList.add('dark');
+            }
+            break;
+    }
+</script>
+
+
+
+
+
+<header id="profileHeader">
+    <nav class="pt-3 navbar navbar-expand-lg ">
+        <div class="container-fluid mx-xs-2 mx-sm-5 mx-md-5 mx-lg-5">
+            
+            <a class="navbar-brand primary-font text-wrap" href="/portfolio">
+                
+                <img src="http://localhost:1313/portfolio//fav.png" width="30" height="30"
+                    class="d-inline-block align-top">
+                
+                
+            </a>
+
+            
+
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <svg aria-hidden="true" height="24" viewBox="0 0 16 16" version="1.1" width="24" data-view-component="true">
+                    <path fill-rule="evenodd" d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z"></path>
+                </svg>
+            </button>
+
+            
+            <div class="collapse navbar-collapse text-wrap primary-font" id="navbarContent">
+                <ul class="navbar-nav ms-auto text-center">
+                    
+
+                    
+
+                    
+                    
+
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/portfolio/projects/" title="">
+                            
+                            Projects
+                        </a>
+                    </li>
+                    
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        
+                        <div class="text-center">
+                            <button id="theme-toggle">
+                                <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                                </svg>
+                                <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="5"></circle>
+                                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                                </svg>
+                            </button>
+                        </div>
+                    </li>
+                    
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+</header>
+<div id="content">
+<section id="single">
+  <div class="container">
+    <div class="row justify-content-center">
+      
+      <div class="col-sm-12 col-md-12 col-lg-9">
+      
+        <div class="pr-lg-4">
+          <div class="title mb-5"><div class="breadcrumbs"><a href="http://localhost:1313/portfolio/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/portfolio/projects/">PROJECTS</a>
+    </div>
+            <h1 class="mb-4">Tangjuan</h1>
+            <div class="text-center">
+               
+              
+
+              
+            </div>
+          </div>
+          
+          <div class="featured-image">
+            <img class="img-fluid mx-auto d-block" src="header.png" alt="Tangjuan">
+          </div>
+          
+          
+          <ul class="project-info-list">
+            
+            <li>
+              <span class="icon-cell"><i class="fa fa-lightbulb" aria-hidden="true"></i></span>
+              <span><strong>Title</strong>&nbsp;&nbsp;Tang Juan (躺卷)</span>
+            </li>
+            
+            
+            
+            <li>
+              <span class="icon-cell"><i class="fa fa-clock" aria-hidden="true"></i></span>
+              <span><strong>Duration</strong>&nbsp;&nbsp;Ongoing</span>
+            </li>
+            
+            
+            <li>
+              <span class="icon-cell"><i class="fa fa-calendar" aria-hidden="true"></i></span>
+              <span><strong>Timeframe</strong>&nbsp;&nbsp;2024 November → Current</span>
+            </li>
+            
+            
+            <li>
+              <span class="icon-cell"><i class="fa fa-language" aria-hidden="true"></i></span>
+              <span><strong>Language</strong>&nbsp;&nbsp;English</span>
+            </li>
+            
+            
+            <li>
+              <span class="icon-cell"><i class="fa fa-clipboard" aria-hidden="true"></i></span>
+              <span><strong>Project Type</strong>&nbsp;&nbsp;Side Project</span>
+            </li>
+            
+            
+            <li>
+              <span class="icon-cell"><i class="fa fa-align-left" aria-hidden="true"></i></span>
+              <span>
+                <strong>Summary</strong>
+                <p class="summary">
+                  As a on-going side project derived from a gossip about personal finance, Tang Juan took a bottom-up approach to implement a web app for empowering user making well-informed personal financial decision. This project is built with Python (Backend/Flask) and Javascript. (Frontend/Vue.js)
+                </p>
+              </span>
+            </li>
+            
+          </ul>
+          
+          <article class="page-content  p-2">
+          <h1 id="background">Background</h1>
+<p>This project is a side project derived from a gossip with friends about buying house and retirement. During the discussion, we gradually realized that a sense-making personal financial decision relied on multiple financial facts and estimation, which could not easily achieved by just thinking.</p>
+<h1 id="goal">Goal</h1>
+<p>This project aims to provide an application for users to evaluate important financial decisions based on their own financial facts, such as salary, living cost, and housing.</p>
+<h1 id="process">Process</h1>
+<p>As a side project, Tangjuan is implemented through a <strong>bottom-up approach.</strong> Starting from a spreadsheet demo, essential data fields and formula get defined. Then a monolith web app get scaffolded, written in Python with <a href="https://flask.palletsprojects.com/en/stable/" target="_blank">Flask</a> framework, to re-implement the spreadsheet demo to improve the usability.</p>
+<p>To accomplish further requirement, a front-end / backend web app get adapted with the monolith revised as backend. The frontend is developed with <a href="https://vuejs.org/" target="_blank">vue.js</a> framework, <a href="https://primevue.org/" target="_blank">PrimeVue</a> as UI library, and <a href="https://tailwindcss.com/" target="_blank">Tailwind</a> for utility class. After the implementation of the basic features demo by the spreadsheet, the further design is on going with a more detailed consideration and diverse features.</p>
+<h2 id="1-spreadsheet-demo">1. Spreadsheet demo</h2>
+<p>In the spreadsheet demo, important financial facts are considered, such as salary, living cost, and increase range of salary by year. Essential financial decisions, such as when buying a house, when start raising a child, and when to retire, are also included. <strong>Figure 1</strong> shows the asset accumulation, salary and living cost across ages estimated by the spreadsheet demo. (<a href="https://docs.google.com/spreadsheets/d/18yllhfdH4REEmy09jSiJQExAmy_hKN4mBsWSefzgpUQ/edit?usp=sharing" target="_blank">Click to check the spreadsheet demo</a>)</p>
+<figure><img src="/portfolio/projects/tangjuan/spreadsheet-demo.png"
+    alt="Spreadsheet Demo"><figcaption>
+      <p>Figure 1: Result of Spreadsheet Demo</p>
+    </figcaption>
+</figure>
+
+<h2 id="2-monolith-implemented-by-pythonflask">2. Monolith implemented by Python/Flask</h2>
+<p>To provide a better user interface and encapsulated the formula, a monolith is implemented by Python with Flask framework. A javascript library <a href="https://www.chartjs.org/" target="_blank">Chart.js</a> is used for plotting on browser side. The <strong>Figure 2</strong> shows the landing page of the monolith. (<a href="https://useful-bev-f4lazylifes-d32aaf74.koyeb.app/" target="_blank">Click to check the monolith web app demo</a>)</p>
+<p>The source code could be check in this <a href="https://github.com/tangjuan-finance/tangjuan-backend" target="_blank">Github repo</a>.</p>
+<figure><img src="/portfolio/projects/tangjuan/the-monolith.png"
+    alt="The landing page of the monolith"><figcaption>
+      <p>Figure 2: The landing page of the monolith</p>
+    </figcaption>
+</figure>
+
+<h2 id="3-frontend-by-vuejs">3. Frontend by Vue.js</h2>
+<p>While monolith could serves the basic features, such as rendering data from database to webpages, or calculating results based on input, more complicated UI interaction would required complicated javascript. Thus, a vue.js based frontend is introduced to provide robust support for UI interaction. UI library PrimeVue and css framework tailwind is used for coherent design style. <strong>Figure 3</strong> shows the landing page of the frontend app.</p>
+<p>(<a href="https://tangjuan.netlify.app/" target="_blank">Click to check the front-end web app demo</a>)</p>
+<p>The source code could be check in this <a href="https://github.com/tangjuan-finance/tangjuan-frontend" target="_blank">Github repo</a>.</p>
+<figure><img src="/portfolio/projects/tangjuan/landing-page-front-end.png"
+    alt="The landing page of the front-end app"><figcaption>
+      <p>Figure 3: The landing page of the front-end app</p>
+    </figcaption>
+</figure>
+
+<h2 id="4-system-design">4. System Design</h2>
+<p>By so far Tangjuan is served as a tool for estimating personal financial facts without signup. While it would be safe as no personal information left, and all the information would vanished once the page closed, the user scenario is limited to one-time estimation. Advanced needs, such as financial planning (save the result for checking in the future) or comparing (saving different plans for comparing) would not be possible without connecting with a database.</p>
+<p>As an iterative and ongoing project, an Entity-Relationship Diagram (ER Diagram) is designed for supporting advanced features, shown in <strong>Figure 4.</strong> The deployment of the ER Diagram and advanced features is still in progressed.</p>
+<figure><img src="/portfolio/projects/tangjuan/er-diagram-tangjuan.png"
+    alt="Entity-Relationship Diagram of Tangjuan"><figcaption>
+      <p>Figure 4: The Entity-Relationship Diagram of Tangjuan</p>
+    </figcaption>
+</figure>
+
+<h2 id="sidenote">Sidenote</h2>
+<p>The project name “Tang Juan” is derived from two slangs in Mandarin, “<a href="https://en.wikipedia.org/wiki/Tang_ping" target="_blank">Tang ping</a>” (躺平) and &ldquo;<a href="https://en.wikipedia.org/wiki/Neijuan" target="_blank">Neijuan</a>.” (内卷) “Tang ping” literally means “lie down flat”, which is considered as a rejection to the over-competitive work environment in China after 2020s. And “Neijuan”, emerged at similar time, literally means “inside roll”, meaning an overworked life under extreme competition.</p>
+<p>Thus, “Tang Juan”, as a financial facts estimation tools, aims to empower users balancing work and life. With “Tang Juan”, a clear personal finance landscape would be shown, suggesting how much salary and assets would be needed to accomplish personal financial goals.</p>
+<figure><img src="/portfolio/projects/tangjuan/logo-tangjuan.png"
+    alt="Logo of Tangjuan"><figcaption>
+      <p>Figure 5: Logo of Tangjuan</p>
+    </figcaption>
+</figure>
+
+
+          </article>
+        </div>
+      </div>
+      
+      <div class="col-sm-12 col-md-12 col-lg-3">
+        <div id="stickySideBar" class="sticky-sidebar">
+          
+          <aside class="toc">
+              <h5>
+                Table Of Contents
+              </h5>
+              <div class="toc-content">
+                <nav id="TableOfContents">
+  <ul>
+    <li><a href="#background">Background</a></li>
+    <li><a href="#goal">Goal</a></li>
+    <li><a href="#process">Process</a>
+      <ul>
+        <li><a href="#1-spreadsheet-demo">1. Spreadsheet demo</a></li>
+        <li><a href="#2-monolith-implemented-by-pythonflask">2. Monolith implemented by Python/Flask</a></li>
+        <li><a href="#3-frontend-by-vuejs">3. Frontend by Vue.js</a></li>
+        <li><a href="#4-system-design">4. System Design</a></li>
+        <li><a href="#sidenote">Sidenote</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+              </div>
+          </aside>
+          
+
+          
+
+          
+        </div>
+      </div>
+      
+    </div>
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-9 p-4">
+        
+      </div>
+    </div>
+  </div>
+  <button class="p-2 px-3" onclick="topFunction()" id="topScroll">
+    <i class="fas fa-angle-up"></i>
+  </button>
+</section>
+
+
+<div class="progress">
+  <div id="scroll-progress-bar" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<Script src="http://localhost:1313/portfolio//js/scrollProgressBar.js"></script>
+
+
+<script>
+  var topScroll = document.getElementById("topScroll");
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      topScroll.style.display = "block";
+    } else {
+      topScroll.style.display = "none";
+    }
+  }
+
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+
+  
+  let stickySideBarElem = document.getElementById("stickySideBar");
+  let stickyNavBar =  false ;
+  if(stickyNavBar) {
+    let headerElem = document.getElementById("profileHeader");
+    let headerHeight = headerElem.offsetHeight + 15;
+    stickySideBarElem.style.top = headerHeight + "px";
+  } else {
+    stickySideBarElem.style.top = "50px";
+  }
+</script>
+
+
+
+
+  </div><footer>
+    
+ 
+
+<div class="text-center pt-2">
+    
+
+    
+
+    
+
+    
+
+    
+</div><div class="container py-4">
+    <div class="row justify-content-center">
+        <div class="col-md-4 text-center">
+            <div class="pb-2">
+                <a href="http://localhost:1313/portfolio/" title="Portfolio | Huang Chuan">
+                    <img alt="Footer logo" src="http://localhost:1313/portfolio//fav.png"
+                        height="40px" width="40px">
+                </a>
+            </div>
+            &copy; 2025  All Rights Reserved
+            <div class="text-secondary">
+                Made with
+                <span class="text-danger">
+                    &#10084;
+                </span>
+                and
+                <a href="https://github.com/gurusabarish/hugo-profile" target="_blank"
+                    title="Designed and developed by gurusabarish">
+                    Hugo Profile
+                </a>
+            </div>
+        </div>
+    </div>
+</div></footer><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+<script>
+     
+    if (localStorage.getItem("pref-theme") != "light"){
+        if (document.body.className.includes("light")) {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    }
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+  <section id="search-content" class="py-2">
+    <div class="container" id="search-results"></div>
+  </section>
+</body>
+
+</html>

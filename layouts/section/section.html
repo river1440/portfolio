@@ -17,14 +17,14 @@
         {{ range .Paginator.Pages }}
         <div class="row mb-5">
             <div class="col-sm-12 col-md-12 col-lg-5">
-                <a href="{{ .RelPermalink }}">
-                    <img class= "w-100 h-100 rounded-4 item-image" src="{{ .RelPermalink }}{{ .Params.cover_image | default "/cover.JPG" }}">
+                <a href="{{ .RelPermalink }}" class="ratio ratio-16x9">
+                    <img class= "object-fit-cover rounded-4 item-image" src="{{ with .Resources.GetMatch .Params.cover_image }}{{ .RelPermalink }}{{ else }}{{ relURL "images/placeholder.png" }}{{ end }}">
                 </a>
             </div>
-            <div class="col-sm-12 col-md-12 col-lg-7 content row {{ if .Site.Params.animate }}animate{{ end }}" id="primary-font">
+            <div class="col-sm-12 col-lg-7 content row {{ if .Site.Params.animate }}animate{{ end }}" id="primary-font">
                 <div class="px-4">
                     <div class="d-flex gap-3 section-item-title">
-                        <h3>
+                        <h3 class="pt-2 pt-lg-0 fw-normal">
                             {{ .Title }}
                         </h3>
                     </div>
@@ -32,12 +32,12 @@
                         {{ .Summary }}
                     </p>
                 </div>
-                <div class="d-flex align-items-end mb-3 px-4">
+                <!-- <div class="d-flex align-items-end mb-3 px-4">
                     <a href="{{ .RelPermalink }}" class="cta-section">
                         <i class="fa-solid fa-arrow-left"></i>
                         &nbspCheck {{ .Title }}
                     </a>
-                </div>
+                </div> -->
             </div>
         </div>
         {{ end }}
