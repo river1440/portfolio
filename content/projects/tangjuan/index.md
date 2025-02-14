@@ -53,7 +53,7 @@ The source code could be check in this {{< link_blank "https://github.com/tangju
 
 While monolith could serves the basic features, such as rendering data from database to webpages, or calculating results based on input, more complicated UI interaction would required complicated javascript. Thus, a vue.js based frontend is introduced to provide robust support for UI interaction. UI library PrimeVue and css framework tailwind is used for coherent design style. **Figure 3** shows the landing page of the frontend app.
 
-({{< link_blank "https://tangjuan.netlify.app/" "Click to check the front-end web app demo" >}})
+({{< link_blank "https://tangjuan.river1440.work/" "Click to check the front-end web app demo" >}})
 
 The source code could be check in this {{< link_blank "https://github.com/tangjuan-finance/tangjuan-frontend" "Github repo" >}}.
 
