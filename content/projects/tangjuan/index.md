@@ -60,15 +60,19 @@ The source code could be check in this {{< link_blank "https://github.com/tangju
 
 {{< figure src="landing-page-front-end.png" alt="The landing page of the front-end app" caption="Figure 3: The landing page of the front-end app" >}}
 
-## 4. System Design
+## 4. Defining Schemas
 
 By so far Tangjuan is served as a tool for estimating personal financial facts without signup. While it would be safe as no personal information left, and all the information would vanished once the page closed, the user scenario is limited to one-time estimation. Advanced needs, such as financial planning (save the result for checking in the future) or comparing (saving different plans for comparing) would not be possible without connecting with a database.
 
 As an iterative and ongoing project, an Entity-Relationship Diagram (ER Diagram) is designed for supporting advanced features, shown in **Figure 4.** The deployment of the ER Diagram and advanced features is still in progressed.
 
-
 {{< figure src="er-diagram-tangjuan.png" alt="Entity-Relationship Diagram of Tangjuan" caption="Figure 4: The Entity-Relationship Diagram of Tangjuan" >}}
 
+## 5. API Design
+
+To provide a flexible and scalable way to access the resources, the API design is essential. Based on the features drafted in the “1. Spreadsheet demo” section, the Tang Juan API supported a scenario-based finance planner and simulator. The Figure 5 shows part of the Tang Juan API Doc, while the documentation could be accessed at {{< link_blank "https://tangjuan-api-doc.river1440.work/" "here" >}}.
+
+{{< figure src="tangjuan-api-doc.png" alt="Screenshot of Tang Juan’s API Doc" caption="Figure 5: Screenshot of Tang Juan’s API Doc" >}}
 ## Sidenote
 
 The project name “Tang Juan” is derived from two slangs in Mandarin, “{{< link_blank "https://en.wikipedia.org/wiki/Tang_ping" "Tang ping" >}}” (躺平) and "{{< link_blank "https://en.wikipedia.org/wiki/Neijuan" "Neijuan" >}}.” (内卷) “Tang ping” literally means “lie down flat”, which is considered as a rejection to the over-competitive work environment in China after 2020s. And “Neijuan”, emerged at similar time, literally means “inside roll”, meaning an overworked life under extreme competition.
