@@ -60,13 +60,13 @@ As a demo project for FastAPI, this project use FastAPI and its common friends, 
 
 The API design is mainly followed the FastAPI guide, like defining a BaseModel with three derived models Model: ModelCreate (for POST method in RESTful API), ModelPublic (GET method), and ModelUpdate. (PATCH method) (as the Figure 5 shows)
 
-The API doc could be accessed in ({{< link_blank "https://job-kuai-tie-api.river1440.work/docs" "this demo link" >}}), and here is ({{< link_blank "https://github.com/Job-KuaiTie/job-kuai-tie-api" "the github repo link" >}})
+The API doc could be accessed in {{< link_blank "https://job-kuai-tie-api.river1440.work/docs" "this demo link" >}}, and here is {{< link_blank "https://github.com/Job-KuaiTie/job-kuai-tie-api" "the github repo link" >}}
 
 {{< figure src="api-doc.png" alt="The API doc for Job KuaiTie" caption="Figure 5: The API doc for Job KuaiTie">}}
 
 ## 3. Frontend for the MVP
 
-The frontend is developed (more like assembled) in a hurry - only half day left before the demo. Its skeleton is mainly reused from another project of mine, the UI utilized the PrimeVue UI library, and the router, state management, and api call are firstly generated from ChatGPT, then revised to fit in the system. Figure 6 shows the Job Post page from the frontend, with ({{< link_blank "https://github.com/Job-KuaiTie/job-kuai-tie-frontend" "its github repo link here." >}})
+The frontend is developed (more like assembled) in a hurry - only half day left before the demo. Its skeleton is mainly reused from another project of mine, the UI utilized the PrimeVue UI library, and the router, state management, and api call are firstly generated from ChatGPT, then revised to fit in the system. Figure 6 shows the Job Post page from the frontend, with {{< link_blank "https://github.com/Job-KuaiTie/job-kuai-tie-frontend" "its github repo link here." >}}
 
 {{< figure src="frontend.png" alt="The frontend for Job KuaiTie" caption="Figure 6: The frontend for Job KuaiTie">}}
 
