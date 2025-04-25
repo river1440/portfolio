@@ -66,7 +66,7 @@ The API doc could be accessed in ({{< link_blank "https://job-kuai-tie-api.river
 
 ## 3. Frontend for the MVP
 
-The frontend is developed (more like assembled) in a hurry - only half day left before the demo. Its skeleton is mainly reused from another project of mine, the UI utilized the PrimeVue UI library, and the router, state management, and api call are firstly generated from ChatGPT, then revised to fit in the system. Figure 6 shows the Job Post page from the frontend, with its github repo link here.
+The frontend is developed (more like assembled) in a hurry - only half day left before the demo. Its skeleton is mainly reused from another project of mine, the UI utilized the PrimeVue UI library, and the router, state management, and api call are firstly generated from ChatGPT, then revised to fit in the system. Figure 6 shows the Job Post page from the frontend, with ({{< link_blank "https://github.com/Job-KuaiTie/job-kuai-tie-frontend" "its github repo link here." >}})
 
 {{< figure src="frontend.png" alt="The frontend for Job KuaiTie" caption="Figure 6: The frontend for Job KuaiTie">}}
 
