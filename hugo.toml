@@ -84,6 +84,7 @@ title = 'Portfolio | Huang Chuan'
     items = [
       "/projects/badm",
       "/projects/tangjuan",
+      "/projects/job-kuai-tie",
       "/projects/njfp"
     ]
     # [[params.projects.items]]
