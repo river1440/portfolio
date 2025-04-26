@@ -2,7 +2,7 @@
 title = 'Job KuaiTie（求職快貼）'
 date = 2025-04-25T21:02:36+08:00
 draft = false
-tags = ["API"]
+tags = ["Python", "gdggd", "rtshrt", "rthjry", "esrg", "rytjty", ]
 unique_id = "a65572d047463102fdbee92a545ea8ec"
 aliases = ["a65572d047463102fdbee92a545ea8ec"]
 images = ["cover.png"]

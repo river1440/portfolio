@@ -20,6 +20,10 @@ title = 'Portfolio | Huang Chuan'
     name = 'Projects'
     pageRef = '/projects'
     weight = 20
+  [[menus.main]]
+    name = 'Tags'
+    pageRef = '/tags'
+    weight = 30
   # [[menus.main]]
   #   name = 'Experiences'
   #   pageRef = '/experiences'
