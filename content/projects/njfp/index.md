@@ -1,14 +1,14 @@
 +++
-title = 'NJFP'
+title = 'NJFP (Not Just Final Project)'
 date = 2024-05-31T13:06:24+08:00
 draft = false
 tags = []
 unique_id = "f08b453cf90cf447dd4a616016178108"
 aliases = ["f08b453cf90cf447dd4a616016178108"]
-weight = 30
+weight = 50
 # For Open Graph and Twitter Card
 images = ["cover.png"]
-cover_image = "cover.png"
+cover_image = "cover_img.png"
 header_image = "header.png"
 summary = "NJFP is a side project aims to provide a hosting service for people easily managing their project experiences. Serving as a self-taught project, NJFP started from defining need and goals with persona, creating Figma prototype, hosting UI components on Storybook, to defining ER diagram and setting api documentation with Swagger UI."
 project_info = true

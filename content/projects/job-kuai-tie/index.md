@@ -1,16 +1,17 @@
 +++
-title = 'Job Kuai Tie'
+title = 'Job KuaiTie（求職快貼）'
 date = 2025-04-25T21:02:36+08:00
 draft = false
-tags = []
+tags = ["API"]
 unique_id = "a65572d047463102fdbee92a545ea8ec"
 aliases = ["a65572d047463102fdbee92a545ea8ec"]
 images = ["cover.png"]
+weight = 40
 cover_image = "cover.png"
 header_image = "header.png"
 summary = "Derived from personal needs and implemented for demo purpose, Job KuaiTie is a project prototyped in four days, with backend FastAPI (Python), frontend Vue.js (Javascript), and the help from ChatGPT. Job KuaiTie aims to provide a table-like panel for job seekers to organize and prioritize their job application with easy notes."
 project_info = true
-project_title = "Job KuaiTie (求職快貼)"
+project_title = "Job KuaiTie（求職快貼）"
 project_size = "1 members"
 project_duration = "Postpone"
 project_timeframe = "2025 April 20 → 23 "

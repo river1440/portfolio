@@ -5,12 +5,12 @@ draft = false
 tags = []
 unique_id = "f57183fbbb73614b2e167056ec61405d"
 aliases = ["f57183fbbb73614b2e167056ec61405d"]
-weight = 10
+weight = 30
 # For Open Graph and Twitter Card
-images = ["association_rules.png"]
-cover_image = "association_rules.png"
-header_image = "head.png"
-summary = "Product Bundling using Machine Learning for Increasing Profit while Promoting Sustainable Purchase Behaviors at Little Green Shop"
+images = ["cover.png"]
+cover_image = "cover.png"
+header_image = "header.png"
+summary = "This project aimed to assist a zero-waste shop in increasing in-store sales and promoting sustainable shopping behaviors through data-driven insights. Using POS data, we applied machine learning techniques such as CART, Logistic Regression, and Association Rules through RapidMiner to identify product combinations and analyze container usage patterns. Key findings include product combinations that inform sales strategies and understandings of customer behavior."
 project_info = true
 project_title = "Product Bundling using Machine Learning for Increasing Profit while Promoting Sustainable Purchase Behaviors at Little Green Shop"
 team_size = "4 members"
