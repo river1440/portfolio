@@ -1,7 +1,21 @@
 <div class="card col bg-transparent border-0">
   <a href="{{ .RelPermalink }}" class="ratio ratio-16x9">
     <img src="{{ with .Resources.GetMatch .Params.cover_image }}{{ .RelPermalink }}{{ else }}images/placeholder.png{{ end }}" class="object-fit-cover card-img-top rounded-3">
-  </a> 
+  </a>
+  <!-- Insert Tags Here -->
+  <div class="d-flex flex-wrap gap-2 mb-1 mt-2">
+    {{ with .Params.tags }}
+      {{ range . }}
+        {{ $tag := . }}
+        {{ with $.Site.GetPage (printf "tags/%s" (urlize $tag)) }}
+          <a href="{{ .RelPermalink }}" class="badge rounded-pill bg-info text-decoration-none">
+            {{ $tag }}
+          </a>
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  </div>
+  <!-- End Tags -->
   <div class="card-body justify-content-start px-0">
     <h5 class="card-title fs-5 fw-semibold">{{ .Title }}</h5>
     <p class="card-text fw-normal">{{ .Params.summary }}</p>
