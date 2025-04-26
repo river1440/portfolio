@@ -1,18 +1,18 @@
 +++
-title = 'Tangjuan'
+title = 'Tang Juan（躺卷）'
 date = 2025-01-07T21:19:19+08:00
 draft = false
-tags = []
+tags = ["Python", "Vue.js", "Flask", "API Design", "Prototyping"]
 unique_id = "6e2eb856831b8637ac0885370e6d2c3a"
 aliases = ["6e2eb856831b8637ac0885370e6d2c3a"]
-weight = 20
+weight = 10
 # For Open Graph and Twitter Card
 images = ["cover.png"]
-cover_image = "cover.png"
+cover_image = "cover_img.png"
 header_image = "header.png"
 summary = "As a on-going side project derived from a gossip about personal finance, Tang Juan took a bottom-up approach to implement a web app for empowering user making well-informed personal financial decision. This project is built with Python (Backend/Flask) and Javascript. (Frontend/Vue.js)"
 project_info = true
-project_title = "Tang Juan (躺卷)"
+project_title = "Tang Juan（躺卷）"
 project_size = "1 members"
 project_duration = "Ongoing"
 project_timeframe = "2024 November → Current"

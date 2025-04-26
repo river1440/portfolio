@@ -1,0 +1,27 @@
+{{ define "head" }}
+<meta name="description" content="{{ .Title }} of {{ .Site.Title }}">
+<link rel="stylesheet" href="{{ .Site.BaseURL }}/css/list.css" media="all">
+<link rel="stylesheet" href="{{ .Site.BaseURL }}/css/tag.css" media="all">
+{{ end }}
+
+{{ define "title" }}
+{{.Title }} | {{ .Site.Title }}
+{{ end }}
+
+{{ define "main" }}
+<section id="tags" class="py-5">
+  <div class="container px-3 px-md-5">
+      <div class="section-intro mb-3">
+          <div class="col-12">
+              <h3>{{ .Title }}</h3>
+              <scan class="section-intro-content">{{ .Content }}</scan>
+          </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 gy-4">
+          {{ range .Pages }}
+          {{ partial "sections/project-card.html" . }}
+          {{ end }}
+      </div>
+  </div>
+</section>
+{{ end }}

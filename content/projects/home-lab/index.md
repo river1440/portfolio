@@ -2,10 +2,11 @@
 title = 'Home Lab'
 date = 2025-04-26T12:49:51+08:00
 draft = false
-tags = []
+tags = ["Linux", "Security"]
 unique_id = "8700a005d282c4af660ea6b513eab8ae"
 aliases = ["8700a005d282c4af660ea6b513eab8ae"]
 images = ["cover.png"]
+weight = 20
 cover_image = "cover.png"
 header_image = "header.png"
 summary = "For learning linux and experimental purpose, I repurposed my old laptop as a homer lab. Using Debian, this home lab is connected by Cloudflare tunnel and VPN (tailscale) to boost the security. To set experimental services, the home lab utilized docker for deployment, and traefik for reverse proxy. Checkmk is installed to provide real-time monitoring."
