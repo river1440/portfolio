@@ -2,7 +2,7 @@
 title = 'Information Systems Analysis'
 date = 2025-04-26T16:14:22+08:00
 draft = false
-tags = []
+tags = ["SDLC", "Team Project"]
 unique_id = "2cce0121790b24ee9302c89abbc86eda"
 aliases = ["2cce0121790b24ee9302c89abbc86eda"]
 weight = 60

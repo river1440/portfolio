@@ -1,0 +1,31 @@
+/* tags */
+#tags {
+    background-color: var(--secondary-color) !important;
+}
+
+#tags .section-intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+#tags .section-intro-content {
+    opacity: 0.8;
+}
+
+
+#tags h3 {
+    color: var(--text-color) !important;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+#tags a {
+    text-decoration: none;
+    color: var(--text-color) !important;
+}
+
+#tags .card {
+    color: var(--text-color) !important;
+}

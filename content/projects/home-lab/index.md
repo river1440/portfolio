@@ -2,7 +2,7 @@
 title = 'Home Lab'
 date = 2025-04-26T12:49:51+08:00
 draft = false
-tags = []
+tags = ["Linux", "Security"]
 unique_id = "8700a005d282c4af660ea6b513eab8ae"
 aliases = ["8700a005d282c4af660ea6b513eab8ae"]
 images = ["cover.png"]
