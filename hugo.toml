@@ -63,7 +63,7 @@ title = 'Portfolio | Huang Chuan'
       url = "https://www.linkedin.com/in/chuan-huang-068b84161/"
       icon = "fa-brands fa-linkedin"
     [[params.hero.socialLinks.fontAwesomeIcons]]
-      url = "https://github.com/river1440-ce"
+      url = "https://github.com/river1440"
       icon = "fa-brands fa-github"
     # [[params.hero.socialLinks.fontAwesomeIcons]]      
     #   url = "https://camelsrandomnotes.life/zh/"
